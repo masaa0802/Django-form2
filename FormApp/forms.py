@@ -3,7 +3,7 @@ from django import forms
 
 
 class StudentInsertForm(forms.ModelForm):
-  
+
   name = forms.CharField(label='名前')
   age = forms.IntegerField(label='年齢')
   grade = forms.IntegerField(label='学年')
@@ -11,4 +11,4 @@ class StudentInsertForm(forms.ModelForm):
 
   class Meta:
     model = Students
-    field ='__all__'
+    fields ='__all__'

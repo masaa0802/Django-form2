@@ -9,4 +9,3 @@ class Students(models.Model):
 
   class Meta:
     db_table = 'students'
-    
